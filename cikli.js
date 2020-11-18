@@ -1,20 +1,17 @@
-function cycle1() {
-    let j = 0;
-    let count = 0;
-    
-    for (let i = 1; i < 99; i++) {
-        if (i  % 2 == 0) {
-            j += i;
-            count ++;
-        }
-
-    return j;
-    }
-
-    return count;
-}
-
-console.log(cycle1());
+//function range() {
+//    let j = 0;
+//    let count = 0;
+//
+//    for (let i = 1; i < 99; i++) {
+//        if (i  % 2 == 0) {
+//            j += i;
+//            count ++;
+//        }
+//    }
+//    return `Sum of even numbers: ${j}, quantity: ${count}`;
+//}
+//
+//console.log(range());
 
 
 // function cycle2(a) {
@@ -47,14 +44,14 @@ console.log(cycle1());
 //   return 1;
 // } else {
 //   let j = 1;
-
+//
 //   for (let  i = 1; i <= num; i++) {
 //     j *= i;
 //   }
 //   return j ;
 // }
 // }
-
+//
 // console.log(faktorial(5));
 
 
@@ -64,14 +61,13 @@ console.log(cycle1());
 //     for (let i = 0; i < num; ) {
 //         rem = num % 10;
 //         a = num / 10 - rem / 10;
-
+//         num = a;
 //         sum += rem;
-//     } 
+//     }
 //     return sum;
-
 // }
-
-// console.log(addNums());
+//
+// console.log(addNums(1));
 
 
 // function cycle6() {
