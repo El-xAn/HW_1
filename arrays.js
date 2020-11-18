@@ -65,10 +65,12 @@ function sumOfUnevenElems(numbers) {
 
 
 function revers(numbers) {
-let temp ;
+
     for (let j = numbers.length - 1; j > 0; j--) {
-        console.log(numbers[j]);
+        numb = numbers[j];
     }
+
+    return numb;
 }
 
 
@@ -102,9 +104,7 @@ function sortingBubble(numbers) {
         }
     }
 
-     for (let i = 0; i < numbers.length; i++) {
-        console.log(numbers[i]);
-     }
+    return numbers;
 }
 
-sortingBubble([6, 3, 9, 0, -6, 31, -64]);
+console.log(revers([1, 5, 2, 0]));
